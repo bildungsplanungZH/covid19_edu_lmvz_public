@@ -3,7 +3,7 @@
 name: Get data from private repo
 on:
   schedule:
-    - cron: '40 * * * *' # everyday at 05:30 UTC
+    - cron: '30 5 * * *' # everyday at 05:30 UTC
 
 jobs:
   # load job
