@@ -17,7 +17,6 @@ jobs:
     # Copy file from url
     - name: Copy file
       run: |
-        sudo apt install curl
         curl -o Bildungs_TrainingMathematik.csv https://raw.githubusercontent.com/bildungsmonitoringZH/covid19_edu_lmvzmath/master/Bildung_TrainingMathematik.csv?token=AO5R67U7ZT3JCUGXR2C6WYC6WONBE
 
     # Commit to repo with updated file
