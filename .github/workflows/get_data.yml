@@ -17,7 +17,7 @@ jobs:
     # Copy file from url
     - name: Copy file
       run: |
-        curl -o Bildung_TrainingMathematik.csv https://raw.githubusercontent.com/bildungsmonitoringZH/covid19_edu_lmvzmath/master/Bildung_TrainingMathematik.csv?token=AO5R67U5AA27PFTI5HY5W526XTQP2
+        curl -o Bildung_TrainingMathematik.csv https://raw.githubusercontent.com/bildungsmonitoringZH/covid19_edu_lmvzmath/master/Bildung_TrainingMathematik.csv?token=AO5R67R4XAKK2CXA6DJGHAS6Y6QRO
 
     # Commit to repo with updated file
     - uses: stefanzweifel/git-auto-commit-action@v4.1.1
