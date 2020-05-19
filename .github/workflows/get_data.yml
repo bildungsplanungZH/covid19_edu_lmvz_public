@@ -17,8 +17,8 @@ jobs:
     # Copy file from url
     - name: Copy file
       run: |
-        curl -o Bildung_TrainingMathematik.csv https://raw.githubusercontent.com/bildungsmonitoringZH/covid19_edu_lmvzmath/master/Bildung_TrainingMathematik.csv?token=AO5R67R4XAKK2CXA6DJGHAS6Y6QRO
-        if grep -q '^404' Bildung_TrainingMathematik.csv; then exit 1; fi
+        curl -o Bildung_TrainingMathematik.csv https://raw.githubusercontent.com/bildungsmonitoringZH/covid19_edu_lmvzmath/master/Bildung_TrainingMathematik.csv?token=AJUPNJ4DVX7M7CVKJE5HMFS6YONVE
+        if grep -q '^\d{3}' Bildung_TrainingMathematik.csv; then exit 1; fi
 
     # Commit to repo with updated file
     - uses: stefanzweifel/git-auto-commit-action@v4.1.1
