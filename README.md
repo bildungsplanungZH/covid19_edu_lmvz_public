@@ -2,8 +2,8 @@
 pagetitle: Gesellschaftsmonitoring COVID19, Daten Lehrmittelverlag Zürich
 ---
 
-![](../2020_github_pages/assets/ktzh_bi_logo_de-300x88.jpg)
-![](../2020_github_pages/assets/lmvz_logo-300x88.jpg)
+![](https://bildungsmonitoringzh.github.io/assets/ktzh_bi_logo_de-300x88.jpg)
+![](https://bildungsmonitoringzh.github.io/assets/lmvz_logo-300x88.jpg)
 
 # Gesellschaftsmonitoring COVID19, Daten Lehrmittelverlag Zürich
 
