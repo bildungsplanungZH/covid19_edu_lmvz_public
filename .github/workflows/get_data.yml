@@ -17,7 +17,7 @@ jobs:
     # Copy file from url
     - name: Copy file
       run: |
-        curl -o Bildung_TrainingMathematik.csv https://raw.githubusercontent.com/bildungsmonitoringZH/covid19_edu_lmvzmath/master/Bildung_TrainingMathematik.csv?token=AJUPNJ6WO36CUIPM73XKVL265GVCW
+        curl -o Bildung_TrainingMathematik.csv https://raw.githubusercontent.com/bildungsmonitoringZH/covid19_edu_lmvzmath/master/Bildung_TrainingMathematik.csv?token=AJUPNJZGIFCCY3AD6SGQ7BC65MW7M
         if egrep -q '^[0-9]{3}\:' Bildung_TrainingMathematik.csv; then exit 1; fi
 
     # Commit to repo with updated file
