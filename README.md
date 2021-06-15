@@ -15,7 +15,7 @@ Daten zur täglichen Nutzung eines online benutzbaren [Fertigkeitstrainings 1-6]
 
 ## Beteiligte
 
-Nicolas Brandenberg <nicolas.brandenberg@lmvz.ch>, Lehrmittelverlag Zürich
+Christoph Saner <christoph.saner@lmvz.ch>, Lehrmittelverlag Zürich
 
 Flavian Imlig <flavian.imlig@bi.zh.ch>, Bildungsdirektion
 
@@ -24,6 +24,8 @@ Flavian Imlig <flavian.imlig@bi.zh.ch>, Bildungsdirektion
 Der Indikator beschreibt die Anzahl der Zugriffe auf die Online-Ressource pro Tag. 
 
 Per 8.4.2020 wurde Matomo anstelle von Google Analytics als Webanalytik-Plattform eingesetzt. Aufgrund der leicht anderen Zählweise in Matomo gegenüber Google Analytics wurden die Werte vom 1.1.2020 bis 7.4.2020 rückwirkend angepasst ([Modellbeschreibung][umrechnungsmodell]).
+
+Für den Zeitraum 8.05.2021 bis 30.5.2021 liegen keine Angaben vor. Grund dafür ist eine Serverumstellung.
 
 [topic] Bildung
 
@@ -47,9 +49,8 @@ Kann die Variable OGD gestellt werden?
 
 ## Vorgehen
 
-* (Daten ab 8.4.2020) automatischer, tätglich aktualisierter Report in Matomo
+* (Daten ab 8.4.2020) automatischer, wöchentlich aktualisierter Report in Matomo, Bezug der Daten und Generieren der erforderlichen Datenstruktur einmal wöchentlich.
 * (Daten bis 7.4.2020) automatischer, täglich aktualisierter Report in Google Analytics, rückwirkend umgerechnet auf Basis eines [linearen Modells][umrechnungsmodell].
-* R-Skript `prepareData_direct.R` zum Bezug der Daten und zum Generieren der erforderlichen Datenstruktur, automatisch ausgeführt einmal täglich.
 
 ### Umrechnungsmodell
 
