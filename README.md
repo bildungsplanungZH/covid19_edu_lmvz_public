@@ -27,6 +27,8 @@ Per 8.4.2020 wurde Matomo anstelle von Google Analytics als Webanalytik-Plattfor
 
 Für den Zeitraum 8.05.2021 bis 30.5.2021 liegen keine Angaben vor. Grund dafür ist eine Serverumstellung.
 
+Die Zeitreihe beginnt am 1. Januar 2020 und endet am 17. Juli 2023.
+
 [topic] Bildung
 
 [variable_short] training_mathematik_lmvz
