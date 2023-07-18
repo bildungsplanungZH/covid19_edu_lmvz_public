@@ -23,11 +23,11 @@ Flavian Imlig <flavian.imlig@bi.zh.ch>, Bildungsdirektion
 
 Der Indikator beschreibt die Anzahl der Zugriffe auf die Online-Ressource pro Tag. 
 
+Die Zeitreihe beginnt am 1. Januar 2020 und endet am 17. Juli 2023.
+
 Per 8.4.2020 wurde Matomo anstelle von Google Analytics als Webanalytik-Plattform eingesetzt. Aufgrund der leicht anderen Zählweise in Matomo gegenüber Google Analytics wurden die Werte vom 1.1.2020 bis 7.4.2020 rückwirkend angepasst ([Modellbeschreibung][umrechnungsmodell]).
 
 Für den Zeitraum 8.05.2021 bis 30.5.2021 liegen keine Angaben vor. Grund dafür ist eine Serverumstellung.
-
-Die Zeitreihe beginnt am 1. Januar 2020 und endet am 17. Juli 2023.
 
 [topic] Bildung
 
